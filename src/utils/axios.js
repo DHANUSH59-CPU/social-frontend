@@ -1,9 +1,9 @@
 import axios from "axios";
 
 const axiosClient = axios.create({
-  baseURL: "http://localhost:5000",
+  baseURL: "https://social-backend-losn.onrender.com",
   withCredentials: true, // Important for cookies
 });
 
 export default axiosClient;
-
+// https://social-backend-losn.onrender.com
